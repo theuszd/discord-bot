@@ -93,7 +93,7 @@ client.on(Events.InteractionCreate, async interaction => {
 
     // Troca o apelido do membro
     try {
-      await membro.setNickname(`${nome} - ${id}`);
+      await membro.setNickname(`${nome} | ${id}`);
     } catch (err) {
       console.error('Erro ao mudar apelido:', err);
     }
